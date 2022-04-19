@@ -5,3 +5,6 @@ CREATE TABLE employee (
    mobile VARCHAR(200) NOT NULL,
    location VARCHAR(200) NOT NULL
 )
+
+
+
