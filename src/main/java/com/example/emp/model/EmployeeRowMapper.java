@@ -1,6 +1,5 @@
-package com.example.emp.repository;
+package com.example.emp.model;
 
-import com.example.emp.model.Employee;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

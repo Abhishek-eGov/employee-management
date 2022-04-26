@@ -5,6 +5,10 @@ CREATE TABLE employee (
    mobile VARCHAR(200) NOT NULL,
    location VARCHAR(200) NOT NULL
 )
+CREATE TABLE department (
+   id serial PRIMARY KEY,
+   title VARCHAR(200) NOT NULL
+)
 
 
 

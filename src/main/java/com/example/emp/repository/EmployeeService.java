@@ -1,5 +1,4 @@
 package com.example.emp.repository;
-
 import com.example.emp.model.Employee;
 import org.springframework.stereotype.Service;
 

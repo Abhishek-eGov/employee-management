@@ -1,6 +1,7 @@
 package com.example.emp.repository;
 
 import com.example.emp.model.Employee;
+import com.example.emp.model.EmployeeRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
