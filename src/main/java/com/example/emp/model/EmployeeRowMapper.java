@@ -13,7 +13,8 @@ public class EmployeeRowMapper implements RowMapper <Employee> {
                 rs.getString("name"),
                 rs.getString("email"),
                 rs.getString("mobile"),
-                rs.getString("location")
+                rs.getString("location"),
+                rs.getInt("department_id")
         );
     }
 }
