@@ -1,13 +1,13 @@
 package com.example.department.model;
 
 public class Department {
-    private long id;
+    private int id;
     private String title;
 
     public Department() {
     }
 
-    public Department(long id, String title) {
+    public Department(int id, String title) {
         this.id = id;
         this.title = title;
 
@@ -17,7 +17,7 @@ public class Department {
 
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
